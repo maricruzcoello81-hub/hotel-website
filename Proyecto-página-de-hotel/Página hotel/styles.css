@@ -1,0 +1,63 @@
+body{
+     font-family: serif
+}
+
+ 
+span {color: #a8e6ce;}
+.rosa {color: #ffaaa6}
+
+
+nav a{
+    font-size: 1.3em;
+    color:white;
+    text-decoration: none;
+   
+}
+nav .menu-logo{
+    min-height: 65px;
+    display: flex;
+        justify-content: center;
+        align-items:center;
+        gap:12px
+}
+nav ul{
+    display:none; 
+ 
+}
+
+nav ul li a{
+    font-size: 1em;
+}
+
+nav .logo-solo{
+    display:none}
+.imagen2 {background-image: url(images/portada.webp); }
+/* @media (min-width:720px) */
+@media (width > 720px){
+    nav{
+        display:flex;
+            justify-content:space-evenly;
+            align-items:center
+
+    }
+
+    nav .menu-logo{
+        display:none;
+    }
+    nav ul{
+        list-style: none;
+        min-width: 55%;
+        display:flex;
+            justify-content:space-evenly;
+            align-items:center;
+
+    }
+    nav .logo-solo{
+        display:inherit
+
+    } 
+
+}
+ 
+   
+    

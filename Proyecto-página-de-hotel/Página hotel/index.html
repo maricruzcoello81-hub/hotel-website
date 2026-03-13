@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hotelLasMarias</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-[#a8e6ce] ">
+  <!-- ENCABEZADO -->
+  <header class="min-h-[50vh] bg-center bg-cover bg-no-repeat" style="background-image: url(images/portada1.webp);">
+    <!-- MENÚ DE NAVEGACIÓN  -->
+    <nav class="bg-gradient-to-b from-black to-transparent min-h-[65px] [font-variant:small-caps]">
+      <p class="menu-logo">
+        <a href="#"><img src="images/icon-menu1.png" alt="icono menú" width="30px"></a>
+        <a href="#">Hotel<span> Las </span> <span class="rosa">Marías </span></a>
+      </p>
+
+      <p class="logo-solo"> <a href="#">Hotel<span> Las</span> <span class="rosa">Marías</span></a></p>
+
+      <ul>
+        <li><a href="#" class="hover:bg-[#ffaaa6] transition-colors"> Inicio</a></li>
+        <li><a href="Sobrenosotros.html" class="hover:bg-[#ffaaa6] transition-colors">Sobre nosotros</a></li>
+        <li><a href="Habitaciones.html" class="hover:bg-[#ffaaa6] transition-colors">Habitaciones</a></li>
+        <li><a href="Galeria.html" class="hover:bg-[#ffaaa6] transition-colors">Galería</a></li>
+        <li><a href="Contacto.html" class="hover:bg-[#ffaaa6] transition-colors">Contacto</a></li>
+      </ul>
+    </nav>
+    <!-- PORTADA -->
+    <div
+      class="my-[100px] ml-auto mr-[20px] max-w-[500px] min-h-[350px] text-right text-white flex flex-col justify-evenly">
+      <h1 class="font-light text-7xl">
+        Viví una experiencia única
+      </h1>
+      <!-- BOTÓN PARA RESERVAR -->
+      <p>
+        <STRONg> <a href="#formulario"
+            class="inline-block w-[150px] text-white bg-[#ffaaa6] text-center hover:bg-[#ff858c] hover:shadow-xl ">
+            QUIERO RESERVAR YA!!! </a> </STRONg>
+      </p>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <!-- POR QUÉ ELEGIRNOS -->
+    <section class="max-w-6xl mx-auto px-4">
+      <h1 class="text-center text-white text-4xl sm:text-5xl font-bold mb-6">HOTEL LAS MARIAS</h1>
+      <h1
+        class="text-3xl md:text-4xl font-bold text-white text-center border-b-2 border-[#ffaaa6] pb-4 mb-10 w-fit mx-auto">
+        ¿Por qué elegirnos? </h1>
+      <h2 class="text-center text-white text-xl sm:text-2xl italic mb-8">Dar, Servir, Satisfacer, Agasajar, Cuidar y
+        Nutrir está en nuestra naturaleza.</h2>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-8">
+        <!-- Imagen -->
+        <img src="images/porqueelegirnos.jpg" alt="hotel" class="w-full sm:w-1/2 rounded-lg shadow-lg">
+
+        <!-- Contenido -->
+        <div class="text-white text-lg sm:text-xl">
+          <p class="mb-4">Cultivamos el descanso de calidad. Nos concebimos parte de un todo interrelacionado:
+            destinamos nuestra energía a realizar aportes significativos en nuestro entorno natural y social, por esta
+            razón la sostenibilidad forma parte de nuestro ADN.</p>
+          <a href="Sobrenosotros.html"
+            class="inline-block w-[150px] text-white bg-[#ffaaa6] text-center py-2 rounded-md hover:bg-[#ff858c] hover:shadow-xl transition-colors duration-300">Sobre
+            nosotros</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="bg-[#a8e6ce] py-12 px-4">
+      <h1
+        class="text-3xl md:text-4xl font-bold text-white text-center border-b-2 border-[#ffaaa6] pb-4 mb-10 w-fit mx-auto">
+        Nuestros servicios
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Servicio 1 -->
+        <div class="bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-transparent p-6 rounded-xl shadow-md text-white">
+          <img src="images/cama.png" alt="cama" class="w-16 mx-auto mb-4" />
+          <h2 class="text-xl font-semibold text-[#ffaaa6] mb-2 text-center">Habitaciones de categoría</h2>
+          <p class="text-sm text-center">Nuestras habitaciones están totalmente equipadas para su mayor confort.</p>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-transparent p-6 rounded-xl shadow-md text-white">
+          <img src="images/spa.png" alt="spa" class="w-16 mx-auto mb-4" />
+          <h2 class="text-xl font-semibold text-[#ffaaa6] mb-2 text-center">Spa</h2>
+          <p class="text-sm text-center">Contamos con un moderno spa para que su relax sea completo.</p>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-transparent p-6 rounded-xl shadow-md text-white">
+          <img src="images/piscina.png" alt="piscina" class="w-16 mx-auto mb-4" />
+          <h2 class="text-xl font-semibold text-[#ffaaa6] mb-2 text-center">Piscinas ecológicas</h2>
+          <p class="text-sm text-center">Nuestras piscinas ecológicas se mantienen con minerales naturales, que protegen
+            tanto tu salud como la del entorno.</p>
+          <a href="Galeria.html" class="text-[#a8e6ce] underline block mt-3 text-center hover:text-white">Ver
+            piscina</a>
+        </div>
+
+    </section>
+    <section>
+      <DIV>
+        <h1
+          class="text-3xl md:text-4xl font-bold text-white text-center border-b-2 border-[#ffaaa6] pb-4 mb-10 w-fit mx-auto">
+          Descansar el cuerpo, descansar la mente.
+        </h1>
+      </DIV>
+    </section>
+    <section class="relative border-8 border-dotted border-[#ffaaa6] bg-center bg-cover bg-no-repeat h-[80vh] md:h-[80vh] bg-[url('images/ARTICLE3.jpg')] rounded-md">
+    </section>
+    
+    <section class="bg-[#a8e6ce] py-12 px-4">
+      <h1
+        class="text-3xl md:text-4xl font-bold text-white text-center border-b-2 border-[#ffaaa6] pb-4 mb-10 w-fit mx-auto">
+        Clientes satisfechos:
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Cliente 1 -->
+        <div class="bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-transparent p-6 rounded-xl shadow-md text-white">
+          <img src="images/testimonio1.jpg" alt="cliente1" class="w-full h-64 object-cover mb-4 rounded-lg" />
+          <h2 class="text-xl font-semibold text-[#ffaaa6] mb-2 text-center">Claudia, Colombia</h2>
+          <p class="text-sm text-center">"Unas amigas y yo elegimos Hotel Las Marías para nuestras vacaciones y no
+            pudimos haber tomado mejor decisión. El lugar tiene una atmósfera única, perfecta para relajarnos y
+            disfrutar de momentos juntas."</p>
+        </div>
+
+        <!-- Cliente 2 -->
+        <div class="bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-transparent p-6 rounded-xl shadow-md text-white">
+          <img src="images/testimonio2.jpg" alt="cliente2" class="w-full h-64 object-cover mb-4 rounded-lg" />
+          <h2 class="text-xl font-semibold text-[#ffaaa6] mb-2 text-center">Roxana, España</h2>
+          <p class="text-sm text-center">Las instalaciones son perfectas para todos, desde los más pequeños hasta los
+            adultos. Los niños disfrutaron de la piscina y las actividades, mientras que nosotros pudimos relajarnos y
+            disfrutar de la tranquilidad del lugar. La atención al cliente fue excelente, y la comida deliciosa. Un
+            lugar ideal para pasar tiempo de calidad en familia. ¡Volveremos el próximo año!"</p>
+        </div>
+
+        <!-- Cliente 3 -->
+        <div class="bg-gradient-to-t from-[rgba(0,0,0,0.7)] to-transparent p-6 rounded-xl shadow-md text-white">
+          <img src="images/testimonio3.jpg" alt="cliente3" class="w-full h-64 object-cover mb-4 rounded-lg" />
+          <h2 class="text-xl font-semibold text-[#ffaaa6] mb-2 text-center">Ethan, Estados Unidos</h2>
+          <p class="text-sm text-center">Buscábamos un lugar tranquilo y romántico para desconectar de la rutina, y aquí
+            encontramos eso y mucho más. Las vistas, el spa y la atención personalizada hicieron de nuestra estancia
+            algo especial. Fue el escenario perfecto para celebrar nuestra relación y crear recuerdos juntos.</p>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <!-- FOOTER -->
+  <footer class="bg-[#ffaaa6] text-white py-10 px-6">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      <!-- Redes Sociales -->
+      <div>
+        <h2 class="text-xl mb-4">Nuestras redes sociales:</h2>
+        <div class="flex justify-start items-center space-x-4">
+          <img src="images/icon_face_black.png" alt="Facebook" class="w-8">
+          <img src="images/icon_insta_black.png" alt="Instagram" class="w-8">
+          <img src="images/icon_x_black.png" alt="X" class="w-8">
+        </div>
+      </div>
+
+      <!-- Ubicación -->
+      <div>
+        <h2 class="text-xl mb-4">Ubicación:</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56657.61301791494!2d-48.53567749611684!3d-27.434968717031918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952743922deec995%3A0xbf7d50da7bcb1ba1!2sCanasvieiras%2C%20Florian%C3%B3polis%20-%20Santa%20Catarina%2C%20Brasil!5e0!3m2!1ses!2sar!4v1746281774388!5m2!1ses!2sar"
+          width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="rounded shadow-md">
+        </iframe>
+      </div>
+
+      <!-- Formulario -->
+      <div id="formulario">
+        <h2 class="text-xl mb-4">¡Quiero reservar ya!</h2>
+        <form action="#" method="post" class="flex flex-col space-y-3">
+          <input type="text" name="nombre" placeholder="Tu Nombre"
+            class="p-2 rounded border border-white bg-white text-black">
+          <input type="email" name="email" placeholder="Tu E-Mail"
+            class="p-2 rounded border border-white bg-white text-black">
+          <textarea name="consulta" placeholder="Tu Consulta"
+            class="p-2 rounded border border-white bg-white text-black"></textarea>
+          <input type="submit" value="Enviar"
+            class="bg-[#00ffaa] text-black font-semibold py-2 rounded hover:bg-[#00ddcc] transition-colors">
+        </form>
+      </div>
+
+      <!-- Contacto -->
+      <div>
+        <h2 class="text-xl mb-4">Contáctenos:</h2>
+        <p>Central de reservas: 223 504 0227</p>
+        <p>Recepción: 223 504 0227</p>
+        <p>WhatsApp: +54 9 223 504 0227</p>
+        <p>reservas@hotellasmarias.com.ar</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
